@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#left{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background-color: rgba(184, 154, 98, 0.812);
+}
+#textcenter h1{
+    font-size: 90px;
+    font-weight: 900;
+
+}
+#textcenter p{
+    opacity: .6;
+    line-height: 25px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#textcenter a{
+    text-decoration: none;
+    opacity: .6;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+#lnav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 30px;
+}
+#lnavr{
+    display: flex;
+    align-items: center;
+}
+#lnavr a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+#lnavr i{
+    color: royalblue;
+}
+#lnavr .anchor {
+    border-bottom: 1px solid black ;
+    line-height: 15px;
+    opacity: .6;
+}
+#left #textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#right{
+    height: 100%;
+    width: 60%;
+    /* background-color: pink; */
+}
+#rtop{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background-color: rgba(255, 238, 0, 0.925);
+
+}
+#rbottom{
+  height: 50%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1460353581641-37baddab0fa2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+background-size: cover;
+background-position: center;
+}
+#rtopleft{
+    position: relative;
+    height: 100%;
+    width: 55%;
+    background-image: url(https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2012&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#rtopright{
+    height: 100%;
+    width: 45%;
+background-image: url(https://images.unsplash.com/photo-1515555230216-82228b88ea98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1926&q=80);
+background-position: center;
+background-size: cover;
+}
